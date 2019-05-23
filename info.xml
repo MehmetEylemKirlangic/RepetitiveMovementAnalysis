@@ -1,0 +1,58 @@
+<productinfo
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://www.mathworks.com/namespace/info/v1/info.xsd">
+<?xml-stylesheet type="text/xsl" href="http://www.mathworks.com/namespace/info/v1/info.xsl"?>
+
+<matlabrelease>13</matlabrelease>
+<name>Repetitive Movement Analysis</name>
+<type>toolbox</type>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+<help_location>$docroot/toolbox/RepMove</help_location>
+
+<list>
+
+<listitem>
+<label>main window</label>
+<callback>Repetitive_Movement_Analysis</callback>
+<icon>$toolbox/matlab/icons/figureicon.gif</icon>
+</listitem>
+
+<listitem>
+<label>Synchronisation and Gait Analysis - Left</label>
+<callback>Synchronisation_Gait_Analysis_Left</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Synchronisation and Gait Analysis - Right</label>
+<callback>Synchronisation_Gait_Analysis_Right</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Self-paced Tapping - Forefoot</label>
+<callback>Self_paced_Tapping_Forefoot</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Self-paced Tapping - Heel</label>
+<callback>Self_paced_Tapping_Heel</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Self-paced Tapping - Hand</label>
+<callback>Self_paced_Tapping_Hand</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Cued Tapping - Left</label>
+<callback>Cued_Tapping_Left</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+<listitem>
+<label>Cued Tapping - Right</label>
+<callback>Cued_Tapping_Right</callback>
+<icon>$toolbox/matlab/icons/greenarrowicon.gif</icon>
+</listitem>
+
+</list>
+
+</productinfo>
